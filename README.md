@@ -29,13 +29,13 @@ O sistema possui uma interface gráfica intuitiva feita com Java Swing, com jane
 2. Compile o projeto:
 
 ```bash
-javac -d bin src/lp2g35/biblioteca/*.java
+javac -d bin lp2g35/biblioteca/*.java lp2g35/exc/*.java lp2g35/gui/*.java P4nX.java
 ```
 
 3. Execute o sistema:
 
 ```bash
-java -cp bin lp2g35.biblioteca.Main
+java -cp bin P4nX
 ```
 
 > Obs: substitua `Main` pelo nome da classe principal do seu sistema, se for diferente.
